@@ -5,8 +5,8 @@ def create_word_list():
     return ["Avocado", "Mango", "Banana", "Grape", "Orange"]
 
 
-def choice_word(word_list):
-    return random.choice(word_list)
+def choice_word():
+    return random.choice(create_word_list())
 
 
 def input_letter():
@@ -17,8 +17,8 @@ def input_letter():
         print(f"Oops! That is not a valid input.")
 
 
-word_list = create_word_list
-print(word_list)
-word = choice_word(word_list)
-print(word)
-input_letter()
+# word_list = create_word_list
+# print(word_list)
+# #word = choice_word(word_list)
+# print(word)
+# input_letter()
