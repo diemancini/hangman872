@@ -15,10 +15,3 @@ def input_letter():
         print(f"Good guess!")
     else:
         print(f"Oops! That is not a valid input.")
-
-
-# word_list = create_word_list
-# print(word_list)
-# #word = choice_word(word_list)
-# print(word)
-# input_letter()
